@@ -1,7 +1,27 @@
-venv/
+# Python
 __pycache__/
-*.pyc
-uploads/*
-!uploads/.gitkeep
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# TensorFlow Models
+model/*.keras
 model/*.h5
+
+# Database
 database/*.db
+
+# Uploads
+uploads/*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
