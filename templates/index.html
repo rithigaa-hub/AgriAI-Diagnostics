@@ -1,10 +1,73 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-    <title>AgriAI Diagnostics</title>
+
+<title>AgriAI Diagnostics</title>
+
+<link rel="stylesheet" href="/static/css/style.css">
+
 </head>
+
+
 <body>
-    <h1>AgriAI Diagnostics</h1>
-    <p>Plant Disease Detection using Deep Learning</p>
+
+
+<div class="container">
+
+
+<h1>
+🌱 AgriAI Diagnostics
+</h1>
+
+
+<p>
+Plant Disease Detection using Deep Learning
+</p>
+
+
+<form action="/predict" method="POST" enctype="multipart/form-data">
+
+
+<input 
+type="file"
+name="image"
+required>
+
+
+<button>
+Predict Disease
+</button>
+
+
+</form>
+
+
+<br>
+
+
+<a href="/history">
+View History
+</a>
+
+
+<br>
+
+
+<a href="/about">
+About
+</a>
+
+
+
+</div>
+
+
+
+<script src="/static/js/script.js"></script>
+
+
 </body>
+
 </html>
